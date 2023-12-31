@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: khaki;
+}
+
+h1 {
+  font: 600 64pt cursive;
+}
+
+.sounds img {
+  margin: 0 4rem;
+  height: 10rem;
+  width: 8rem;
+}
+
+.active {
+  border: 4px solid red;
+}
